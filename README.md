@@ -82,7 +82,7 @@ data/german.data
 
 ### 5. Execute o notebook
 ```bash
-jupyter notebook notebooks/credit_risk_analysis.ipynb
+jupyter notebook notebooks/credit_german_data.ipynb
 ```
 
 ou, se preferir usar JupyterLab:
