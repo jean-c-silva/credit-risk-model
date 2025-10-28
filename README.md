@@ -44,9 +44,48 @@
 
 ---
 
-## Como Executar (Passo a Passo)
+## Como Executar (Passo a passo)
 
-1. **Clone o repositório**
-   ```bash
-   git clone https://github.com/jean-c-silva/german-credit-risk.git
-   cd german-credit-risk
+### 1. Clone o repositório
+```bash
+git clone https://github.com/jean-c-silva/credit-risk-model.git
+cd credit-risk-model
+```
+
+### 2. Crie e ative um ambiente virtual 
+Linux / macOS:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+Windows (CMD):
+```cmd
+python -m venv venv
+venv\Scripts\activate.bat
+```
+Windows (PowerShell):
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+### 3. Instale as dependências
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Baixe o dataset
+Coloque o arquivo `german.data` em:
+```
+data/german.data
+```
+
+### 5. Execute o notebook
+```bash
+jupyter notebook notebooks/credit_risk_analysis.ipynb
+```
+
+ou, se preferir usar JupyterLab:
+```bash
+jupyter lab
+```
